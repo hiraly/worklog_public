@@ -1,0 +1,20 @@
+# Personal data - actual issue logs
+issues/*/
+!issues/.gitkeep
+
+# Generated files
+index.yml
+
+# Local settings (copy from .example to use)
+.claude/settings.local.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/

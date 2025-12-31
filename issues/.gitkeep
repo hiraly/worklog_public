@@ -1,0 +1,3 @@
+# This directory is for storing issue logs.
+# Each issue is stored in: issues/YYYY/YYYY-MM-DD_<slug>/
+# Use `/log/start <description>` to create a new issue log.

@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(head:*)",
+      "Bash(mkdir:*)",
+      "Bash(find:*)",
+      "Skill(log:draft)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(cat:*)",
+      "Bash(ls:*)"
+    ]
+  }
+}
