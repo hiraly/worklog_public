@@ -130,8 +130,9 @@ frontmatter（YAML）には最低限以下を持ちます。
 - READMEに貼るのではなく `sources/<type>/<id>.md` に保存
 - READMEは `src:<id>` 参照のみ（必要最小限の要点だけを raw/decision に反映）
 
-#### Source Card テンプレ（Markdown）
+#### Source Card テンプレ
 
+```markdown
 ---
 id: chat-01
 type: chat             # chat | wiki | issue | git
@@ -151,6 +152,7 @@ version: ""            # wiki: version / issue: updatedAt or key / git: commit h
 - 決定:
 - 論点:
 - 未確定:
+```
 
 ### 4.2 Source Card 抜粋ルール（柔軟に対応）
 
